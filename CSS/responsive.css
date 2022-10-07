@@ -14,7 +14,7 @@
         flex-basis: 20%;
         margin-top: 10px;
     }
-    .header .container ul{
+    .header .container > ul{
         flex-basis: 20%;
     }
     .header .container ul >li> a{
@@ -27,13 +27,20 @@
      /*start mega-menu*/
      .mega-menu{
         top:92px;
+        width: 100%;
     }
     .mega-menu .list{
-        justify-content: center;
+        justify-content: space-around;
+        flex-basis: 100%;
     }
     .mega-menu ul{
         padding-bottom: 0;
         justify-content: unset;
+        flex-basis: 40%;
+        text-align: center;
+    }
+    .mega-menu ul li{
+        width: 100%;
     }
     /*end mega-menu*/
     /*start landing*/
