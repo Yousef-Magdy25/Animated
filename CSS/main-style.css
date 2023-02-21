@@ -1087,7 +1087,7 @@
     .stats{
         padding-top: 100px;
         padding-bottom: 100px;
-        background-image: url(/images/stats.jpg);
+        background-image: url(./images/stats.jpg);
         background-size: cover;
         position: relative;
         z-index: -2;
@@ -1147,7 +1147,7 @@
     }
     .requst-a-discount .first-component{
         flex-basis: 50%;
-        background-image: url(/images/discount-background1.jpg);
+        background-image: url(./images/discount-background1.jpg);
         background-size: cover;
         z-index: -2;
         position: relative;
